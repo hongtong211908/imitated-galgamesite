@@ -1,0 +1,330 @@
+body{
+ height: 100vh;
+ overflow: scroll;
+}
+.wrapper {
+
+  
+}
+
+header{
+    margin: 0 auto;
+    min-width: 1912px;
+    height: 62px;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+header:hover {
+    opacity: 1;
+}
+header .top_tilte{
+    margin: 0 auto;
+   width: 1002px;
+   height: 100%;
+   /* background-color: aqua; */
+}
+header .top_tilte h1 {
+    float: left;
+    margin-top: 18px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+header .top_tilte ul {
+    float: left;
+    margin-left: 35px;
+}
+header .top_tilte ul li {
+    float: left;
+    margin-left: 20px;
+    line-height: 62px;  
+
+}
+header .top_tilte ul li a {
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+header .top_tilte ul li #Relation {
+    color: #d9d9d9;
+    cursor: default; 
+    outline: none;
+    user-select: none; /* 禁止文本选中 */
+}
+header .top_tilte ul li a:hover {
+    color: #2e70b4;
+    opacity: 1;
+}
+header .top_tilte h1:hover{
+    opacity: 0.3;
+}
+/* banner */
+.banner_bg {
+    margin: 0 auto;
+    width: 1912px;
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: 1940px 502px;
+    height: 502px;
+}
+.banner_bg a img {
+    float: right;
+    margin-right: 180px;
+}
+/* 导航 */
+.nav_all {
+    margin: 20px auto;
+     width: 1912px;
+     height: 380px;
+     /* background-color: antiquewhite; */
+}
+.nav_all .nav_content {
+   margin: 20px auto;
+   width: 1060px;
+   height: 310px;
+   /* background-color: aqua; */
+}
+.nav_all ol{
+ float: right;
+}
+.nav_all ol li {
+    float: left;
+    margin-right: 34px;
+
+}
+.nav_all ol li .nav_frame {
+    width: 310px;
+    height: 310px;
+    border: 2px solid #d5d5d5;
+     box-sizing: border-box;
+    border-radius: 13px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav_all ol li .nav_frame .title_txt {
+    margin: 0 auto;
+    width: 310px;
+    height: 40px;
+    background-color: #efefef;
+    text-align: center;
+
+}
+.nav_all ol li .nav_frame .title_txt a {
+    color: #3070b8;
+    line-height: 40px;
+
+}
+.nav_all ol li .nav_frame .nav_txt {
+    width: 305px;
+    height: 92px;
+    border-bottom: 2px solid #d5d5d5;
+    line-height: 25px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.nav_time {
+    width: 305px;
+    height: 13px;
+    font-size: 12px;
+    margin-left: 10px;
+    line-height: 13px;
+    color: gray;
+}
+.yuan {
+    margin: 0 auto;;
+    width: 1912px;
+    height: 50px;
+    /* background-color: #3070b8; */
+}
+.yuan_title {
+    margin: 0 auto;
+    width: 380px;
+    height: 45px;
+    /* background-color: aquamarine; */
+}
+.yuan .yuan_title ul {
+    float: left;
+    margin-left: 50px;
+}
+
+.yuan .yuan_title ul li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background-color: #e6e6e6;
+    border-radius: 100px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.yuan .yuan_title ul li:hover {
+    background-color: #edc6c2;
+}
+
+
+.center_content {
+    margin: 0 auto;
+    width: 1013px;
+    /* background-color: #3070b8; */
+    
+    background-color: antiquewhite;
+}
+.center_content ul {
+    float: left;
+    
+}
+.center_content ul li {
+   margin-top: 30px;
+}
+.center_content ul li a:hover {
+   background: rgb(251, 251, 255);
+   opacity: 0.8;
+}
+.center_img_top {
+   
+}
+.topics09 {
+    width: 746px;
+    background: url(../img/topics_09.png) no-repeat center center;
+    height: 137px;
+}
+.topics09 .to_title {
+    display: flex;
+    justify-content: flex-end; 
+    color: white;
+    margin-right: 15px;
+    line-height: 30px;
+}
+.topics09 .to_txt {
+    font-size: 16px;
+    color: white;
+    width: 166px;
+    line-height: 19px;
+    position: relative;
+    left: 565px;
+    top: 11px;
+    font-size: 10px;
+    text-align: center;
+    /* background-color: #3070b8; */
+}
+.topics08 {
+    width: 746px;
+    background: url(../img/topics_08.png) no-repeat center center;
+    height: 137px;
+}
+.topics08 .to_title {
+    display: flex;
+    justify-content: flex-end; 
+    color: white;
+    margin-right: 125px;
+    line-height: 30px;
+}
+.topics08 .to_txt {
+    font-size: 16px;
+    color: white;
+    width: 166px;
+    line-height: 19px;
+    position: relative;
+    left: 565px;
+    top: 11px;
+    font-size: 10px;
+    text-align: center;
+    /* background-color: #3070b8; */
+}
+.topics02 {
+    width: 746px;
+    background: url(../img/topics_02.png) no-repeat center center;
+    height: 137px;
+}
+.topics02 .to_title {
+    display: flex;
+    justify-content: flex-end; 
+    color: white;
+    margin-right: 15px;
+    line-height: 30px;
+}
+.topics02 .to_txt {
+    font-size: 16px;
+    color: white;
+    width: 166px;
+    line-height: 19px;
+    position: relative;
+    left: 565px;
+    top: 11px;
+    font-size: 10px;
+    text-align: center;
+    /* background-color: #3070b8; */
+}
+.center_content_right {
+    float: right;
+    width: 234px;
+    height: 472px;
+    border: 1px solid #5fb1ef;
+    margin-top: 30px;
+}
+.center_content_right ul {
+}
+.center_content_right ul li {
+    margin-top: 0;
+}
+.cen_img {
+    position: relative;
+    display: inline-block;
+}
+.default_img, .hover_img {
+    transition: opacity 0.6s ease;
+}
+.hover_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;/* 默认隐藏悬停图片 */
+}
+.cen_img:hover .default_img {
+  opacity: 0; /* 隐藏默认图 */
+}
+.cen_img:hover .hover_img {
+  opacity: 1; /* 显示悬停图 */
+}
+/* footer */
+footer {
+     
+}
+.footer_bg {
+ margin-top: 600px;
+ 
+ min-width: 1912px;
+ min-height: 5vh;
+ background-color: #e6e6e6;
+ bottom: 0;
+ mask-image: linear-gradient(
+    to bottom,
+    black,              /* 顶部不透明 */
+    black calc(100% - 100px),  /* 距离底部100px处开始渐变 */
+    transparent         /* 底部透明 */
+  );
+
+    
+}
+.footer_bg .footer_img {
+ line-height: 120px;
+ text-align: center;
+}
+
+
+
+
+
+
+
+
+
